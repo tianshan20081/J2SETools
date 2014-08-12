@@ -27,7 +27,7 @@ public class Main {
 	public void testOutputStream() throws Exception{
 		DataOutputStream dos = new DataOutputStream(new BufferedOutputStream(new FileOutputStream("a.txt")));
 		DataOutputStream dos2 = new DataOutputStream(new FileOutputStream("b.txt"));
-		int n = 10000000;
+		int n = 1000;
 		long begin = System.currentTimeMillis();
 		for (int i = 0; i < n; i++) {
 			dos.writeLong(i);
