@@ -21,4 +21,13 @@ public class LazySingleton {
 			instance = new LazySingleton();
 		return instance;
 	}
+
+	public static LazySingleton getInstance2() {
+		synchronized (instance) {
+			if (null == instance) {
+				instance = new LazySingleton();
+			}
+		}
+		return instance;
+	}
 }
