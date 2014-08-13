@@ -1,0 +1,630 @@
+[
+   {
+      "categoryId" : "001",
+      "commCategoryDtos" : [
+         {
+            "categoryId" : "001000",
+            "commCategoryDtos" : [
+               {
+                  "categoryId" : "001000000",
+                  "commCategoryDtos" : [],
+                  "name" : "电视"
+               },
+               {
+                  "categoryId" : "001000003",
+                  "commCategoryDtos" : [],
+                  "name" : "洗衣机"
+               },
+               {
+                  "categoryId" : "001000006",
+                  "commCategoryDtos" : [],
+                  "name" : "空气净化器"
+               },
+               {
+                  "categoryId" : "001000007",
+                  "commCategoryDtos" : [],
+                  "name" : "挂烫机"
+               },
+               {
+                  "categoryId" : "001000008",
+                  "commCategoryDtos" : [],
+                  "name" : "吸尘器"
+               },
+               {
+                  "categoryId" : "001000009",
+                  "commCategoryDtos" : [],
+                  "name" : "饮水机"
+               },
+               {
+                  "categoryId" : "001000010",
+                  "commCategoryDtos" : [],
+                  "name" : "其他生活电器"
+               }
+            ],
+            "name" : "日用家电"
+         },
+         {
+            "categoryId" : "001001",
+            "commCategoryDtos" : [
+               {
+                  "categoryId" : "001001000",
+                  "commCategoryDtos" : [],
+                  "name" : "榨汁机"
+               },
+               {
+                  "categoryId" : "001001001",
+                  "commCategoryDtos" : [],
+                  "name" : "豆浆机"
+               },
+               {
+                  "categoryId" : "001001002",
+                  "commCategoryDtos" : [],
+                  "name" : "酸奶机"
+               },
+               {
+                  "categoryId" : "001001003",
+                  "commCategoryDtos" : [],
+                  "name" : "电饭煲"
+               },
+               {
+                  "categoryId" : "001001005",
+                  "commCategoryDtos" : [],
+                  "name" : "电饼铛"
+               },
+               {
+                  "categoryId" : "001001007",
+                  "commCategoryDtos" : [],
+                  "name" : "果蔬清洗机"
+               },
+               {
+                  "categoryId" : "001001008",
+                  "commCategoryDtos" : [],
+                  "name" : "其他厨房电器"
+               }
+            ],
+            "name" : "厨用家电"
+         },
+         {
+            "categoryId" : "001002",
+            "commCategoryDtos" : [
+               {
+                  "categoryId" : "001002000",
+                  "commCategoryDtos" : [],
+                  "name" : "剃须刀"
+               }
+            ],
+            "name" : "理容家电"
+         },
+         {
+            "categoryId" : "001004",
+            "commCategoryDtos" : [
+               {
+                  "categoryId" : "001004000",
+                  "commCategoryDtos" : [],
+                  "name" : "GPS导航仪"
+               },
+               {
+                  "categoryId" : "001004001",
+                  "commCategoryDtos" : [],
+                  "name" : "车载电器"
+               }
+            ],
+            "name" : "汽车用品"
+         },
+         {
+            "categoryId" : "001005",
+            "commCategoryDtos" : [
+               {
+                  "categoryId" : "001005000",
+                  "commCategoryDtos" : [],
+                  "name" : "跑步机"
+               },
+               {
+                  "categoryId" : "001005001",
+                  "commCategoryDtos" : [],
+                  "name" : "血压计"
+               },
+               {
+                  "categoryId" : "001005002",
+                  "commCategoryDtos" : [],
+                  "name" : "按摩器"
+               },
+               {
+                  "categoryId" : "001005004",
+                  "commCategoryDtos" : [],
+                  "name" : "足浴盆"
+               },
+               {
+                  "categoryId" : "001005006",
+                  "commCategoryDtos" : [],
+                  "name" : "桑拿房"
+               }
+            ],
+            "name" : "健康电器"
+         }
+      ],
+      "name" : "家用电器"
+   },
+   {
+      "categoryId" : "000",
+      "commCategoryDtos" : [
+         {
+            "categoryId" : "000000",
+            "commCategoryDtos" : [
+               {
+                  "categoryId" : "000000000",
+                  "commCategoryDtos" : [],
+                  "name" : "数码照相机"
+               },
+               {
+                  "categoryId" : "000000001",
+                  "commCategoryDtos" : [],
+                  "name" : "数码摄像机"
+               }
+            ],
+            "name" : "数码影像"
+         },
+         {
+            "categoryId" : "000001",
+            "commCategoryDtos" : [
+               {
+                  "categoryId" : "000001000",
+                  "commCategoryDtos" : [],
+                  "name" : "手机"
+               }
+            ],
+            "name" : "手机通讯"
+         },
+         {
+            "categoryId" : "000002",
+            "commCategoryDtos" : [
+               {
+                  "categoryId" : "000002001",
+                  "commCategoryDtos" : [],
+                  "name" : "电子书"
+               },
+               {
+                  "categoryId" : "000002003",
+                  "commCategoryDtos" : [],
+                  "name" : "音箱"
+               }
+            ],
+            "name" : "时尚影音"
+         },
+         {
+            "categoryId" : "000003",
+            "commCategoryDtos" : [
+               {
+                  "categoryId" : "000003000",
+                  "commCategoryDtos" : [],
+                  "name" : "台式电脑"
+               },
+               {
+                  "categoryId" : "000003001",
+                  "commCategoryDtos" : [],
+                  "name" : "笔记本电脑"
+               },
+               {
+                  "categoryId" : "000003002",
+                  "commCategoryDtos" : [],
+                  "name" : "投影仪"
+               }
+            ],
+            "name" : "办公/家用设备"
+         },
+         {
+            "categoryId" : "000006",
+            "commCategoryDtos" : [
+               {
+                  "categoryId" : "000006000",
+                  "commCategoryDtos" : [],
+                  "name" : "娱乐设备"
+               }
+            ],
+            "name" : "其他数码"
+         }
+      ],
+      "name" : "3C数码"
+   },
+   {
+      "categoryId" : "006",
+      "commCategoryDtos" : [
+         {
+            "categoryId" : "006000",
+            "commCategoryDtos" : [
+               {
+                  "categoryId" : "006000001",
+                  "commCategoryDtos" : [],
+                  "name" : "T恤"
+               },
+               {
+                  "categoryId" : "006000003",
+                  "commCategoryDtos" : [],
+                  "name" : "外套"
+               },
+               {
+                  "categoryId" : "006000004",
+                  "commCategoryDtos" : [],
+                  "name" : "裤子"
+               },
+               {
+                  "categoryId" : "006000005",
+                  "commCategoryDtos" : [],
+                  "name" : "裙子"
+               }
+            ],
+            "name" : "女装"
+         },
+         {
+            "categoryId" : "006001",
+            "commCategoryDtos" : [
+               {
+                  "categoryId" : "006001000",
+                  "commCategoryDtos" : [],
+                  "name" : "衬衫"
+               },
+               {
+                  "categoryId" : "006001001",
+                  "commCategoryDtos" : [],
+                  "name" : "T恤"
+               }
+            ],
+            "name" : "男装"
+         },
+         {
+            "categoryId" : "006003",
+            "commCategoryDtos" : [
+               {
+                  "categoryId" : "006003000",
+                  "commCategoryDtos" : [],
+                  "name" : "塑身美体"
+               },
+               {
+                  "categoryId" : "006003005",
+                  "commCategoryDtos" : [],
+                  "name" : "打底内衣"
+               }
+            ],
+            "name" : "内衣"
+         },
+         {
+            "categoryId" : "006004",
+            "commCategoryDtos" : [
+               {
+                  "categoryId" : "006004000",
+                  "commCategoryDtos" : [],
+                  "name" : "男鞋"
+               },
+               {
+                  "categoryId" : "006004001",
+                  "commCategoryDtos" : [],
+                  "name" : "女鞋"
+               },
+               {
+                  "categoryId" : "006004004",
+                  "commCategoryDtos" : [],
+                  "name" : "户外"
+               }
+            ],
+            "name" : "鞋靴"
+         },
+         {
+            "categoryId" : "006005",
+            "commCategoryDtos" : [
+               {
+                  "categoryId" : "006005000",
+                  "commCategoryDtos" : [],
+                  "name" : "帽子"
+               },
+               {
+                  "categoryId" : "006005003",
+                  "commCategoryDtos" : [],
+                  "name" : "太阳镜"
+               },
+               {
+                  "categoryId" : "006005005",
+                  "commCategoryDtos" : [],
+                  "name" : "袜子"
+               }
+            ],
+            "name" : "配饰"
+         }
+      ],
+      "name" : "服装箱包"
+   },
+   {
+      "categoryId" : "003",
+      "commCategoryDtos" : [
+         {
+            "categoryId" : "003000",
+            "commCategoryDtos" : [
+               {
+                  "categoryId" : "003000000",
+                  "commCategoryDtos" : [],
+                  "name" : "男士手表"
+               },
+               {
+                  "categoryId" : "003000001",
+                  "commCategoryDtos" : [],
+                  "name" : "女士手表"
+               }
+            ],
+            "name" : "钟表专区"
+         },
+         {
+            "categoryId" : "003001",
+            "commCategoryDtos" : [
+               {
+                  "categoryId" : "003001005",
+                  "commCategoryDtos" : [],
+                  "name" : "时尚套组"
+               }
+            ],
+            "name" : "时尚饰品"
+         },
+         {
+            "categoryId" : "003002",
+            "commCategoryDtos" : [
+               {
+                  "categoryId" : "003002000",
+                  "commCategoryDtos" : [],
+                  "name" : "玉石"
+               },
+               {
+                  "categoryId" : "003002002",
+                  "commCategoryDtos" : [],
+                  "name" : "珍珠"
+               },
+               {
+                  "categoryId" : "003002003",
+                  "commCategoryDtos" : [],
+                  "name" : "翡翠"
+               },
+               {
+                  "categoryId" : "003002004",
+                  "commCategoryDtos" : [],
+                  "name" : "碧玺"
+               }
+            ],
+            "name" : "玉器宝石"
+         },
+         {
+            "categoryId" : "003003",
+            "commCategoryDtos" : [
+               {
+                  "categoryId" : "003003000",
+                  "commCategoryDtos" : [],
+                  "name" : "金条"
+               },
+               {
+                  "categoryId" : "003003005",
+                  "commCategoryDtos" : [],
+                  "name" : "收藏挂件"
+               }
+            ],
+            "name" : "黄金饰品"
+         },
+         {
+            "categoryId" : "003004",
+            "commCategoryDtos" : [
+               {
+                  "categoryId" : "003004000",
+                  "commCategoryDtos" : [],
+                  "name" : "银条"
+               },
+               {
+                  "categoryId" : "003004005",
+                  "commCategoryDtos" : [],
+                  "name" : "收藏挂件"
+               }
+            ],
+            "name" : "纯银饰品"
+         },
+         {
+            "categoryId" : "003005",
+            "commCategoryDtos" : [
+               {
+                  "categoryId" : "003005003",
+                  "commCategoryDtos" : [],
+                  "name" : "工艺摆件"
+               },
+               {
+                  "categoryId" : "003005004",
+                  "commCategoryDtos" : [],
+                  "name" : "邮票钱币"
+               }
+            ],
+            "name" : "礼品/收藏"
+         }
+      ],
+      "name" : "钟表首饰"
+   },
+   {
+      "categoryId" : "004",
+      "commCategoryDtos" : [
+         {
+            "categoryId" : "004001",
+            "commCategoryDtos" : [
+               {
+                  "categoryId" : "004001000",
+                  "commCategoryDtos" : [],
+                  "name" : "枕头/靠垫"
+               },
+               {
+                  "categoryId" : "004001001",
+                  "commCategoryDtos" : [],
+                  "name" : "被子/床垫"
+               },
+               {
+                  "categoryId" : "004001002",
+                  "commCategoryDtos" : [],
+                  "name" : "床单/被罩"
+               },
+               {
+                  "categoryId" : "004001003",
+                  "commCategoryDtos" : [],
+                  "name" : "针织家纺"
+               },
+               {
+                  "categoryId" : "004001004",
+                  "commCategoryDtos" : [],
+                  "name" : "毛巾被毯"
+               }
+            ],
+            "name" : "床上用品"
+         },
+         {
+            "categoryId" : "004002",
+            "commCategoryDtos" : [
+               {
+                  "categoryId" : "004002000",
+                  "commCategoryDtos" : [],
+                  "name" : "刀具"
+               },
+               {
+                  "categoryId" : "004002001",
+                  "commCategoryDtos" : [],
+                  "name" : "锅具"
+               },
+               {
+                  "categoryId" : "004002003",
+                  "commCategoryDtos" : [],
+                  "name" : "茶具/咖啡具"
+               },
+               {
+                  "categoryId" : "004002006",
+                  "commCategoryDtos" : [],
+                  "name" : "美食工具"
+               }
+            ],
+            "name" : "餐厨用品"
+         },
+         {
+            "categoryId" : "004003",
+            "commCategoryDtos" : [
+               {
+                  "categoryId" : "004003000",
+                  "commCategoryDtos" : [],
+                  "name" : "收纳用品"
+               },
+               {
+                  "categoryId" : "004003001",
+                  "commCategoryDtos" : [],
+                  "name" : "卫浴用品"
+               }
+            ],
+            "name" : "生活日用"
+         },
+         {
+            "categoryId" : "004004",
+            "commCategoryDtos" : [
+               {
+                  "categoryId" : "004004003",
+                  "commCategoryDtos" : [],
+                  "name" : "清洁工具"
+               }
+            ],
+            "name" : "清洁用品"
+         }
+      ],
+      "name" : "生活家居"
+   },
+   {
+      "categoryId" : "005",
+      "commCategoryDtos" : [
+         {
+            "categoryId" : "005002",
+            "commCategoryDtos" : [
+               {
+                  "categoryId" : "005002000",
+                  "commCategoryDtos" : [],
+                  "name" : "茗茶"
+               }
+            ],
+            "name" : "茶品饮料"
+         },
+         {
+            "categoryId" : "005003",
+            "commCategoryDtos" : [
+               {
+                  "categoryId" : "005003002",
+                  "commCategoryDtos" : [],
+                  "name" : "营养品"
+               }
+            ],
+            "name" : "营养品"
+         }
+      ],
+      "name" : "食品干货"
+   },
+   {
+      "categoryId" : "002",
+      "commCategoryDtos" : [
+         {
+            "categoryId" : "002000",
+            "commCategoryDtos" : [
+               {
+                  "categoryId" : "002000001",
+                  "commCategoryDtos" : [],
+                  "name" : "精华面霜"
+               },
+               {
+                  "categoryId" : "002000002",
+                  "commCategoryDtos" : [],
+                  "name" : "爽肤紧致"
+               },
+               {
+                  "categoryId" : "002000004",
+                  "commCategoryDtos" : [],
+                  "name" : "面膜面贴"
+               }
+            ],
+            "name" : "面部护理"
+         },
+         {
+            "categoryId" : "002001",
+            "commCategoryDtos" : [
+               {
+                  "categoryId" : "002001002",
+                  "commCategoryDtos" : [],
+                  "name" : "唇膏唇彩"
+               },
+               {
+                  "categoryId" : "002001008",
+                  "commCategoryDtos" : [],
+                  "name" : "彩妆组合"
+               }
+            ],
+            "name" : "魅力彩妆"
+         },
+         {
+            "categoryId" : "002002",
+            "commCategoryDtos" : [
+               {
+                  "categoryId" : "002002000",
+                  "commCategoryDtos" : [],
+                  "name" : "女士香水"
+               }
+            ],
+            "name" : "迷人香氛"
+         },
+         {
+            "categoryId" : "002003",
+            "commCategoryDtos" : [
+               {
+                  "categoryId" : "002003000",
+                  "commCategoryDtos" : [],
+                  "name" : "美容养颜"
+               },
+               {
+                  "categoryId" : "002003001",
+                  "commCategoryDtos" : [],
+                  "name" : "减肥消脂"
+               }
+            ],
+            "name" : "保健食品"
+         }
+      ],
+      "name" : "美容护肤"
+   }
+]
