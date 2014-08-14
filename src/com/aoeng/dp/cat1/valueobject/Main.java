@@ -14,6 +14,7 @@ import org.junit.Test;
 /**
  * Jun 23, 2014 2:31:34 PM
  * 
+ * Value Object 设计模式
  */
 public class Main {
 	public static void main(String[] args) {
