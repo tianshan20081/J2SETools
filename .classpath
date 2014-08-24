@@ -28,5 +28,6 @@
 	<classpathentry kind="lib" path="lib/pinyin4j-2.5.0.jar"/>
 	<classpathentry kind="lib" path="lib/QRCode.jar"/>
 	<classpathentry kind="lib" path="lib/sqlitejdbc-v037-nested.jar"/>
+	<classpathentry kind="lib" path="lib/gson-2.3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
