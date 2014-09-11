@@ -18,9 +18,8 @@ public class Main {
 	}
 
 	public static void test() {
-		String pathname = "";
-		System.out
-				.println("-----------------------------------------------------------------------------------");
+		String pathname = "/home/nk-aoeng/Downloads/wumi_2001002.apk";
+		System.out.println("-----------------------------------------------------------------------------------");
 		System.out.println("文件名：" + text(pathname));
 		System.out.println("CRC:\t" + test01(pathname));
 		System.out.println("文件大小(字节)：" + test02(pathname));
@@ -43,8 +42,7 @@ public class Main {
 		// TODO Auto-generated method stub
 		Long time = System.currentTimeMillis();
 		Calendar cal = Calendar.getInstance();
-		SimpleDateFormat formatter = new SimpleDateFormat(
-				"yyyy年MM月dd日， HH:mm:ss");
+		SimpleDateFormat formatter = new SimpleDateFormat("yyyy年MM月dd日， HH:mm:ss");
 		cal.setTimeInMillis(time);
 		System.out.println(formatter.format(cal.getTime()));
 	}
@@ -59,8 +57,7 @@ public class Main {
 	// 获得文件的字节长度
 	public static String test02(String pathname) {
 		try {
-			FileInputStream fileInputStream = new FileInputStream(new File(
-					pathname));
+			FileInputStream fileInputStream = new FileInputStream(new File(pathname));
 			int i = fileInputStream.available();
 			NumberFormat format = NumberFormat.getInstance();
 			return format.format(i);
@@ -73,16 +70,11 @@ public class Main {
 
 	public static void test03(String pathname) {
 		try {
-			System.out.println("MD5:    "
-					+ ChecksumMd5.getHash(pathname, "MD5").toUpperCase());
-			System.out.println("SHA-1:  "
-					+ ChecksumMd5.getHash(pathname, "SHA-1").toUpperCase());
-			System.out.println("SHA-256:"
-					+ ChecksumMd5.getHash(pathname, "SHA-256").toUpperCase());
-			System.out.println("SHA-384:"
-					+ ChecksumMd5.getHash(pathname, "SHA-384").toUpperCase());
-			System.out.println("SHA-512:"
-					+ ChecksumMd5.getHash(pathname, "SHA-512").toUpperCase());
+			System.out.println("MD5:    " + ChecksumMd5.getHash(pathname, "MD5").toUpperCase());
+			System.out.println("SHA-1:  " + ChecksumMd5.getHash(pathname, "SHA-1").toUpperCase());
+			System.out.println("SHA-256:" + ChecksumMd5.getHash(pathname, "SHA-256").toUpperCase());
+			System.out.println("SHA-384:" + ChecksumMd5.getHash(pathname, "SHA-384").toUpperCase());
+			System.out.println("SHA-512:" + ChecksumMd5.getHash(pathname, "SHA-512").toUpperCase());
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -93,8 +85,7 @@ public class Main {
 		File file = new File(filePath);
 		Long time = file.lastModified();
 		Calendar cal = Calendar.getInstance();
-		SimpleDateFormat formatter = new SimpleDateFormat(
-				"yyyy年MM月dd日， HH:mm:ss");
+		SimpleDateFormat formatter = new SimpleDateFormat("yyyy年MM月dd日， HH:mm:ss");
 		cal.setTimeInMillis(time);
 		return formatter.format(cal.getTime());
 	}
