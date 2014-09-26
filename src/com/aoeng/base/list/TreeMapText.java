@@ -5,6 +5,7 @@ import java.util.Hashtable;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.Set;
 import java.util.TreeMap;
 
 import org.junit.Test;
@@ -98,6 +99,12 @@ public class TreeMapText {
 		for (Entry<Integer, String> ent : treeMap.entrySet()) {
 			System.out.println(ent.getKey());
 		}
+
+		Object[] st = treeMap.keySet().toArray();
+		for (int i = 0; i < st.length; i++) {
+//			System.out.println(st[i]);
+		}
+
 	}
 
 }

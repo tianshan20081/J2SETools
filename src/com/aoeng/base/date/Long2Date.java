@@ -13,5 +13,9 @@ public class Long2Date {
 		System.out.println(l);
 		Date d = new Date(l);
 		System.out.println(d.toLocaleString());
+		
+		long ll = System.currentTimeMillis()-60*1*60*1*1000;
+		Date d2 = new Date(ll);
+		System.out.println(d2.toLocaleString());
 	}
 }

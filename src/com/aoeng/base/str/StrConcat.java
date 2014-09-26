@@ -5,6 +5,8 @@ public class StrConcat {
 		String str = "ssssss";
 		str.concat("543556");
 		System.out.println(str);
+		
+		System.out.println(String.format("hello%ssafsdfsdg%d", "zhang",45));
 	}
 
 }
