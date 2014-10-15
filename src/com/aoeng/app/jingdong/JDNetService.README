@@ -1,0 +1,52 @@
+1 初始化JingdongStroageService
+JingdongStroageService jss = new JingdongStroageService("accessKey","sercretKey")//请用你的accessKey 与 sercretKey作为参数
+
+2 列出所有的bucket
+List<Bucket> buckets = jss.listBucket();
+
+3 创建Bucket
+jss.bucket("bucketName").create();
+命名规则参考：http://storage.jcloud.com/docs/jss-dg.pdf
+
+4 删除Bucket
+jss.bucket("bucketName").delete();
+
+5 上传文件
+String md5 = jss.bucket("bucketName").object("Key").entity(new File("pathToFile")).put();
+String md5 = jss.bucket("bucketName").object("Key").entity(long length,Inputstream is).put();
+
+5 下载文件
+jss.bucket("bucketName").object("Key").get().toFile(new File("pathToFile"));
+InputStream input = jss.bucket("bucketName").object("Key").get().getInputStream();
+
+6 删除文件
+jss.bucket("bucketName").object("Key").delete();
+
+7 判断指定的对象是否存在
+boolean exist = jss.bucket("bucketName").object("Key").exist();
+
+8 设置Bucket公共读
+jss.bucket("bucketName").acl().allowAnyoneRead().set();
+
+9 设置允许accessKey为xxxx的用户写,同时设置公共读。
+jss.bucket("bucketName").acl().allowAnyoneRead().grant("xxxx", Permission.WRITE).set(); //用* 代表任意用户
+请注意：bucket acl是全量修改的，9步骤将会覆盖8步骤的，如果需要同时生效，需要同时设置。由于缓存bucket-acl至多需要1分钟才能全局生效。
+
+10 生成URI，用户可以用这个外链上传数据
+jss.bucket("bucketName").object("Key").generatePresignedUrl(3600, Method.PUT)
+可以在1小时之内向生成的Url发Http PUT请求上传文件。
+
+11 生成URI，用户可以用这个外链下载数据
+jss.bucket("bucketName").object("Key").generatePresignedUrl(3600, Method.GET)
+可以在1小时之内向生成的Url发Http GET请求下载文件。
+
+12 大对象上传，分块上传
+String md5 = jss.bucket("bucketName").object("Key").entity(new File("pathToFile")).resumableUpload();
+当上传过程中出现错误/抛出异常的时候，循环调用该方法，将会自动从上次断点的地方继续。建议大文件采用这种方式，比普通上传要慢。
+
+13 销毁JSS
+jss.destroy();
+
+14 联系JDEVELOP
+jcloud@jd.com
+

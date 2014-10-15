@@ -36,5 +36,25 @@
 	<classpathentry kind="lib" path="lib/slf4j-api-1.7.7.jar"/>
 	<classpathentry kind="lib" path="lib/json-lib-2.4-jdk15.jar"/>
 	<classpathentry kind="lib" path="lib/java-json.jar"/>
+	<classpathentry kind="lib" path="lib/jss-sdk-java-1.2.0-SNAPSHOT.jar" sourcepath="libsrc/jss-sdk-java-1.2.0-SNAPSHOT-sources.jar"/>
+	<classpathentry kind="lib" path="lib/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="lib/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="lib/guava-14.0.jar"/>
+	<classpathentry kind="lib" path="lib/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="lib/httpclient-4.2.1.jar"/>
+	<classpathentry kind="lib" path="lib/httpcore-4.2.1.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-core-asl-1.9.12.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-mapper-asl-1.9.12.jar"/>
+	<classpathentry kind="lib" path="lib/joda-time-2.2.jar"/>
+	<classpathentry kind="lib" path="lib/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="libsrc/commons-codec-1.3.jar"/>
+	<classpathentry kind="lib" path="libsrc/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="libsrc/flexjson-2.1.jar"/>
+	<classpathentry kind="lib" path="libsrc/httpclient-4.1.1.jar"/>
+	<classpathentry kind="lib" path="libsrc/httpcore-4.1.jar"/>
+	<classpathentry kind="lib" path="libsrc/jss-sdk-java-1.2.0-SNAPSHOT-sources.jar"/>
+	<classpathentry kind="lib" path="lib/bcs-sdk-java_1.4.5.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.16.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
