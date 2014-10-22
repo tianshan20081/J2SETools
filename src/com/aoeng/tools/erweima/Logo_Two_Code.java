@@ -8,7 +8,8 @@ import java.io.File;
 
 import javax.imageio.ImageIO;
 
-import com.swetake.util.Qrcode;
+import com.google.zxing.qrcode.QRCodeWriter;
+import com.google.zxing.qrcode.encoder.QRCode;
 
 public class Logo_Two_Code {
 	/**
@@ -24,7 +25,7 @@ public class Logo_Two_Code {
 	public static int createQRCode(String content, String imgPath,
 			String ccbPath) {
 		try {
-			Qrcode qrcodeHandler = new Qrcode();
+			QRCodeWriter qrcodeHandler = new QRCode();
 			// 设置二维码排错率，可选L(7%)、M(15%)、Q(25%)、H(30%)，排错率越高可存储的信息越少，但对二维码清晰度的要求越小
 			qrcodeHandler.setQrcodeErrorCorrect('M');
 			// N代表数字,A代表字符a-Z,B代表其他字符

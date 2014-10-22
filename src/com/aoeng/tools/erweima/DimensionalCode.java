@@ -8,7 +8,7 @@ import java.io.File;
 
 import javax.imageio.ImageIO;
 
-import com.swetake.util.Qrcode;
+import com.google.zxing.qrcode.encoder.QRCode;
 
 public class DimensionalCode {
 
@@ -34,7 +34,7 @@ public class DimensionalCode {
 			String ccbPath) {
 
 		try {
-			Qrcode qrcodeHandler = new Qrcode();
+			Qrcode qrcodeHandler = new QRCode();
 			qrcodeHandler.setQrcodeErrorCorrect('M');
 			qrcodeHandler.setQrcodeEncodeMode('B');
 			qrcodeHandler.setQrcodeVersion(7);

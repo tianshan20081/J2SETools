@@ -18,15 +18,8 @@ public class UpToken {
 
 	private static void test() throws Exception {
 		// TODO Auto-generated method stub
-		Config.ACCESS_KEY = "yXKy9jtDxW-WbSYdgeFiJmGFbLTeMqhgTOEUA7uc";
-		Config.SECRET_KEY = "GWKfr2UAorAIGPcv_9dcDhUJoB51TkCDP6xOD0kv";
-		Mac mac = new Mac(Config.ACCESS_KEY, Config.SECRET_KEY);
-		// 请确保该bucket已经存在
-		String bucketName = "androidplay";
-		PutPolicy putPolicy = new PutPolicy(bucketName);
-		String uptoken = putPolicy.token(mac);
 
-		System.out.println(uptoken);
+		System.out.println(QNApi.getUpToken());
 	}
 
 	private static void test2() throws Exception {
