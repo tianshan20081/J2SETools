@@ -8,6 +8,10 @@ public class StrSplit {
 		for (String string2 : strs) {
 			System.out.println(string2);
 		}
+		
+		String path = "sacvasvav/savasvasd/safa.sf/s.png";
+		String type = path.substring(path.lastIndexOf("."), path.length());
+		System.out.println(type);
 	}
 
 }
