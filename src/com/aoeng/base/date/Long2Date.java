@@ -5,7 +5,7 @@ import java.util.Date;
 public class Long2Date {
 
 	public static void main(String[] args) {
-		String str = "1411107119000";
+		String str = "1414492920000";
 		long l = Long.parseLong(str);
 		// 1411107119000;
 		// 1411119673425
