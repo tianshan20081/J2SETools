@@ -61,8 +61,8 @@ public class ZipCompress {
 	public void zipCompress() {
 
 		List<String> lists = new ArrayList<String>();
-		lists.add("/home/aoeng/git/J2SETools/src/com/aoeng/dp/cat1/singleton/LazySingleton.java");
-		lists.add("/home/aoeng/git/J2SETools/src/com/aoeng/dp/cat1/singleton/Main.java");
+		lists.add("D:\\git\\J2SETools/J2SETools/src/com/aoeng/dp/cat1/singleton/LazySingleton.java");
+		lists.add("D:\\git\\J2SETools/git/J2SETools/src/com/aoeng/dp/cat1/singleton/Main.java");
 		lists.add("/home/aoeng/git/J2SETools/src/com/aoeng/dp/cat1/singleton/SerSingleton.java");
 		lists.add("/home/aoeng/git/J2SETools/src/com/aoeng/dp/cat1/singleton/Singleton.java");
 		lists.add("/home/aoeng/git/J2SETools/src/com/aoeng/dp/cat1/singleton/StaticSingelton.java");
@@ -96,5 +96,4 @@ public class ZipCompress {
 		}
 
 	}
-
 }
