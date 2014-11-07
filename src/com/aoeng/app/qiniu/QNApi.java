@@ -1,8 +1,5 @@
 package com.aoeng.app.qiniu;
 
-import java.io.UnsupportedEncodingException;
-
-import org.json.JSONException;
 import org.json.JSONObject;
 
 import com.aoeng.tools.utils.Base64;
@@ -12,6 +9,7 @@ import com.qiniu.api.rs.PutPolicy;
 
 public class QNApi {
 
+	private static final int WEIGHT = 0;
 	private static Mac mac;
 
 	static {
@@ -53,4 +51,35 @@ public class QNApi {
 		return null;
 	}
 
+	/**
+	 * 获得七牛服务器上面 图片的最小高度为 min 的请求参数
+	 * 
+	 * @param min
+	 * @return
+	 */
+	public static String getMinHeight(int minValue, ImageInfo type) {
+		// TODO Auto-generated method stub
+		String format = "?imageView2/2/%s/%d/q/85";
+		return String.format(format, type.getValue(), minValue);
+	}
+
+	enum ImageInfo {
+		WEIGHT("w"), HEIGHT("h");
+
+		private String value;
+
+		ImageInfo(String value) {
+			this.value = value;
+		}
+
+		public String getValue() {
+			return this.value;
+		}
+
+	}
+
+	public static Mac getMac() {
+		// TODO Auto-generated method stub
+		return mac;
+	}
 }
