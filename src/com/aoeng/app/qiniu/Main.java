@@ -38,7 +38,7 @@ public class Main {
 		// String imageUrl =
 		// "http://androidplay.qiniudn.com/lqijZv4UGDVPnEsQw9dsNHLIwtvH";
 		String imageUrl = "http://androidplay.qiniudn.com/Fsj_Ayppv03eCLHBqnTSsvb3pnyN";
-		int min = 768;
+		int min = 100;
 		List<String> list = new ArrayList<String>();
 		list.add("http://androidplay.qiniudn.com/lqijZv4UGDVPnEsQw9dsNHLIwtvH");
 		list.add("http://androidplay.qiniudn.com/lqijZv4UGDVPnEsQw9dsNHLIwtvH");

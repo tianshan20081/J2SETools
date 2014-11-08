@@ -30,11 +30,10 @@ public class DimensionalCode {
 	 * @param ccbpath
 	 *            二维码图片中间的logo路径
 	 */
-	public static int createQRCode(String content, String imgPath,
-			String ccbPath) {
+	public static int createQRCode(String content, String imgPath, String ccbPath) {
 
 		try {
-			Qrcode qrcodeHandler = new QRCode();
+			QRCode qrcodeHandler = new QRCode();
 			qrcodeHandler.setQrcodeErrorCorrect('M');
 			qrcodeHandler.setQrcodeEncodeMode('B');
 			qrcodeHandler.setQrcodeVersion(7);
@@ -44,8 +43,7 @@ public class DimensionalCode {
 			// String string = new String(content.getBytes("iso-8859-1"),
 			// "gbk");
 			// byte[] contentBytes = string.getBytes();
-			BufferedImage bufImg = new BufferedImage(140, 140,
-					BufferedImage.TYPE_INT_RGB);
+			BufferedImage bufImg = new BufferedImage(140, 140, BufferedImage.TYPE_INT_RGB);
 			Graphics2D gs = bufImg.createGraphics();
 
 			gs.setBackground(Color.WHITE);
@@ -67,8 +65,7 @@ public class DimensionalCode {
 					}
 				}
 			} else {
-				System.err.println("QRCode content bytes length = "
-						+ contentBytes.length + " not in [ 0,120 ]. ");
+				System.err.println("QRCode content bytes length = " + contentBytes.length + " not in [ 0,120 ]. ");
 				return -1;
 			}
 			Image img = ImageIO.read(new File(ccbPath));// 实例化一个Image对象。
