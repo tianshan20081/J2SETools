@@ -12,6 +12,14 @@ public class StrSplit {
 		String path = "sacvasvav/savasvasd/safa.sf/s.png";
 		String type = path.substring(path.lastIndexOf("."), path.length());
 		System.out.println(type);
+		
+		
+		
+		System.out.println(String.valueOf(-2));
+		
+		float sx = 152.5f;
+		int sy = (int) sx ;
+		System.out.println(sy);
 	}
 
 }
